@@ -1,1 +1,4 @@
-/*# sourceMappingURL=style.css.map */
+nav navbar-nav {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */
