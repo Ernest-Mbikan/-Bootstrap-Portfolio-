@@ -1,4 +1,31 @@
-nav navbar-nav {
+.jumbotron {
+  background-image: url(../CSS/images/istockphoto-1398608549-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .container {
   display: flex;
-  flex-direction: row;
+  align-content: space-between;
+}
+.jumbotron .container .textHolder {
+  padding-left: 10em;
+}
+.jumbotron .container .textHolder .display-4 {
+  color: rgba(211, 219, 209, 0.986);
+}
+.jumbotron .container .textHolder .lead {
+  color: azure;
+}
+.jumbotron .container .imageHolder {
+  height: 300px;
+}
+.jumbotron .container .imageHolder .image-responsive {
+  height: 80vh;
+  width: 50vh;
+  padding: 0px 0px 267px 0px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */

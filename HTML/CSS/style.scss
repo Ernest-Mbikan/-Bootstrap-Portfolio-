@@ -1,5 +1,41 @@
+.jumbotron{
+    background-image: url(../CSS/images/istockphoto-1398608549-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container{
+       display: flex;
+       align-content: space-between;
+       .textHolder{
+        padding-left: 10em;
+        .display-4{
+            color: rgba(211, 219, 209, 0.986);    
+        }
 
-nav navbar-nav {
-    display: flex;
-    flex-direction: row;
+        .lead{
+            color: azure;
+        }
+
+       }
+        
+    
+
+       .imageHolder{
+        height: 300px;
+       }
+
+       .imageHolder .image-responsive{
+        height: 80vh;
+        width: 50vh;
+        padding: 0px 0px 267px 0px;
+       
+        
+        }
+    }
+    
 }
+
+
+}
+
+
+
