@@ -25,7 +25,21 @@
   padding: 0px 0px 267px 0px;
 }
 
-.container-fluid {
+.container-1 {
   display: flex;
-  justify-content: space-around;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.container-1 .pallet-1 .card-1 {
+  width: 18rem;
+}
+.container-1 .pallet-2 .card-2 {
+  width: 18rem;
+}
+.container-1 .pallet-3 .card-3 {
+  width: 18rem;
+}
+.container-1 .pallet-4 .card-4 {
+  width: 18rem;
 }/*# sourceMappingURL=style.css.map */
