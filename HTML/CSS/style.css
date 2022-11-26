@@ -27,9 +27,7 @@
 
 .container-1 {
   display: flex;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 99rem;
 }
 .container-1 .pallet-1 .card-1 {
   width: 18rem;
@@ -42,4 +40,11 @@
 }
 .container-1 .pallet-4 .card-4 {
   width: 18rem;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    float: none;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

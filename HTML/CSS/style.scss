@@ -38,7 +38,7 @@
         
 .container-1{
     display: flex;
-    width: 18rem
+    width: 99rem;
     .pallet-1 .card-1{
         width: 18rem;
     }
@@ -54,3 +54,14 @@
     
     
 }
+
+
+@media screen and (max-width: 600px){
+    .body{
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
